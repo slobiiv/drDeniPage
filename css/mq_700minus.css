@@ -1,0 +1,192 @@
+header {
+    justify-content: center;
+    width: 100%;
+}
+.heading h2 {
+    font-size: 1.6rem;
+}
+#logo {
+    margin: 0;
+}
+header nav {
+    display: none;
+}
+main {
+    background-image: url("../img/landpage-mob.jpg");
+    width: 100%;
+}
+#atf {
+    margin: 5rem 0 2rem 0;
+    width: 100%;
+}
+#atf h1 {
+    font-size: 4.5rem;
+}
+#atf h2 {
+    font-size: 1.1rem;
+}
+
+#atf p {
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+#cta {
+    margin-top: 3rem;
+}
+#cta a {
+    padding: 12px 25px;
+    font-size: 1rem;
+}
+
+
+/*ABOUT*/
+
+#about {
+    background-image: url("../img/about_me-mob.jpeg");
+}
+
+.about-me {
+    width: 100%;
+    padding: 1rem 0;
+}
+.about-me-description {
+    margin: 0 1rem;
+    font-size: 1em;
+    border-radius: 5px;
+}
+.about-me-description p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.sub-for-ytube {
+    text-align: center;
+    font-size: 18px;
+    margin: 1rem 0;
+}
+#player-id {
+    display: none;
+}
+
+#airbit-mob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.43);
+    border-radius: 4px;
+}
+#airbit-mob article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#airbit-mob p {
+    color: #dadada;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 2;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+#airbit-mob button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #26a850;
+    border-radius: 4px;
+    padding: 3px 12px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: center;
+    margin: 1.2rem 0 1rem 0;
+    transition: all 0.3s ease-in-out;
+}
+#airbit-mob button:hover {
+    background-color: #207a3d;
+    color: #FFFFFF;
+}
+
+.c3 {
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    fill: #fff;
+}
+/*ABOUT END*/
+
+
+/*YOUTUBE*/
+
+#ytube_video {
+    background-image: url("../img/youtube_img-mob.jpg");
+}
+.ytube {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.ytube-video iframe {
+    max-width: 326px;
+    height: 200px;
+}
+.yt-comments {
+    width: 326px;
+    justify-content: center;
+}
+.button {
+    padding: 15px 9px;
+    margin: 0 0 2rem;
+}
+
+/*YOUTUBE END*/
+
+
+
+/*YOUTUBE*/
+
+#contact {
+    background-image: url("../img/contact-mob.jpg");
+    padding-bottom: 1rem;
+}
+#contact span {
+    letter-spacing: 1px;
+    line-height: 2;
+    padding: 0 8px;
+}
+.mail-me p {
+    font-size: .9rem;
+    padding: 0 5px;
+}
+.mail-me div {
+    width: 90px;
+    height: 90px;
+}
+.c0 {
+    width: 45px;
+    height: 45px;
+}
+.c2 {
+    width: 35px;
+    height: 35px;
+}
+footer p {
+    flex-direction: column;
+}
+#feedback div {
+    width: 100%;
+}
+#feedback p {
+    font-size: .9rem;
+    text-align: center;
+    line-height: 1.2;
+}
+#feedback a {
+    padding-left:3px;
+}
